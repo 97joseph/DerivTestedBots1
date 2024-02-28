@@ -1,6 +1,10 @@
 
 # DerivTestedBots1
 
+![Screenshot (96)](https://github.com/97joseph/DerivTestedBots1/assets/33089347/6d0ad3b4-89d2-419a-9518-b5b3ef821874)
+
+
+
  Tested Bots on Deriv Autpomated Trading Platform
 
 
