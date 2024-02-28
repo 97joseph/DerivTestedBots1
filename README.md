@@ -1,7 +1,7 @@
 
 # DerivTestedBots1
 
-![robot-giant-AGBvq47vbgh22xLm](https://github.com/97joseph/DerivTestedBots1/assets/33089347/6eda5131-f074-4b0c-a904-55e8c44a5500)
+![robot-giant-AGBvq47vbgh22xLm](https://github.com/97joseph/DerivTestedBots1/assets/33089347/6eda5131-f074-4b0c-a904-55e8c44a5500){ width="100%" }
 
  Tested Bots on Deriv Autpomated Trading Platform
 
