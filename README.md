@@ -1,5 +1,3 @@
-![robot-giant-AGBvq47vbgh22xLm](https://github.com/97joseph/DerivTestedBots1/assets/33089347/ad99c69a-10a0-4284-b2da-b14f1b4f66f6)
-
 # DerivTestedBots1
  Tested Bots on Deriv Autpomated Trading Platform
 
