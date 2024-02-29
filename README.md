@@ -1,5 +1,5 @@
 
-## Deriv Bots: An Analysis of Automated Trading in a Regulated Binary Options Environment
+# Deriv Bots: An Analysis of Automated Trading in a Regulated Binary Options Environment
 
 ### Abstract:
 
@@ -14,7 +14,7 @@ The rise of binary options trading has introduced new avenues for both financial
 DBots allow users to create automated trading strategies using pre-built blocks and indicators without requiring coding knowledge. Users can specify entry and exit conditions, risk management parameters like stop-loss and take-profit orders, and leverage pre-built strategies like the Martingale, D'Alembert, or Oscar's Grind. The platform offers a variety of underlying assets, including currencies, indices, and commodities.
 
 
-# DerivTestedBots1
+## DerivTestedBots1
 
 ![Screenshot (96)](https://github.com/97joseph/DerivTestedBots1/assets/33089347/6d0ad3b4-89d2-419a-9518-b5b3ef821874)
 
