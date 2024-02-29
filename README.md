@@ -1,4 +1,19 @@
 
+## Deriv Bots: An Analysis of Automated Trading in a Regulated Binary Options Environment
+
+### Abstract:
+
+This paper investigates the functionalities, risks, and regulatory considerations surrounding Deriv Bots, a platform offered by Deriv (formerly Binary.com) that allows users to build and deploy automated trading strategies for binary options. The paper explores the potential benefits and drawbacks of utilizing bots in this context, examining their impact on market efficiency, user behavior, and potential regulatory challenges.
+
+### 1. Introduction
+
+The rise of binary options trading has introduced new avenues for both financial inclusion and potential risks. Platforms like Deriv offer regulated binary options trading and, notably, the Deriv Bot (DBot) platform, which allows users to automate their trading strategies through a visual drag-and-drop interface. This paper aims to analyze DBots, exploring their technical functionalities, underlying assumptions, potential benefits and drawbacks, and the regulatory landscape surrounding them.
+
+### 2. DBot Functionality
+
+DBots allow users to create automated trading strategies using pre-built blocks and indicators without requiring coding knowledge. Users can specify entry and exit conditions, risk management parameters like stop-loss and take-profit orders, and leverage pre-built strategies like the Martingale, D'Alembert, or Oscar's Grind. The platform offers a variety of underlying assets, including currencies, indices, and commodities.
+
+
 # DerivTestedBots1
 
 ![Screenshot (96)](https://github.com/97joseph/DerivTestedBots1/assets/33089347/6d0ad3b4-89d2-419a-9518-b5b3ef821874)
@@ -77,22 +92,6 @@ Consider exploring other binary options trading strategies with potentially lowe
 **Ethical Note:**
 
 It is important to note that the original text may be misleading by promoting the bot as "safe" and "profitable" while failing to adequately emphasize the inherent risks involved. This rewritten text aims to provide a more balanced and ethical representation of the Even-Odd Binary Bot.
-
-
-
-## Deriv Bots: An Analysis of Automated Trading in a Regulated Binary Options Environment
-
-### Abstract:
-
-This paper investigates the functionalities, risks, and regulatory considerations surrounding Deriv Bots, a platform offered by Deriv (formerly Binary.com) that allows users to build and deploy automated trading strategies for binary options. The paper explores the potential benefits and drawbacks of utilizing bots in this context, examining their impact on market efficiency, user behavior, and potential regulatory challenges.
-
-### 1. Introduction
-
-The rise of binary options trading has introduced new avenues for both financial inclusion and potential risks. Platforms like Deriv offer regulated binary options trading and, notably, the Deriv Bot (DBot) platform, which allows users to automate their trading strategies through a visual drag-and-drop interface. This paper aims to analyze DBots, exploring their technical functionalities, underlying assumptions, potential benefits and drawbacks, and the regulatory landscape surrounding them.
-
-### 2. DBot Functionality
-
-DBots allow users to create automated trading strategies using pre-built blocks and indicators without requiring coding knowledge. Users can specify entry and exit conditions, risk management parameters like stop-loss and take-profit orders, and leverage pre-built strategies like the Martingale, D'Alembert, or Oscar's Grind. The platform offers a variety of underlying assets, including currencies, indices, and commodities.
 
 ### 3. Potential Benefits & Drawbacks
 
