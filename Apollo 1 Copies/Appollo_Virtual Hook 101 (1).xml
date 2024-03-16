@@ -1,0 +1,136 @@
+<xml xmlns="http://www.w3.org/1999/xhtml" is_dbot="true" collection="false">
+  <variables>
+    <variable type="" id="Jg%jvThV*oE[2!sn3+h@" islocal="false" iscloud="false">virtual_hook</variable>
+  </variables>
+  <block type="trade_definition" id="i@,@Q:lcP!6f#t1!$.qV" deletable="false" x="0" y="56">
+    <statement name="TRADE_OPTIONS">
+      <block type="trade_definition_market" id="k***(co@1B}Bbcns!+$:" deletable="false" movable="false">
+        <field name="MARKET_LIST">synthetic_index</field>
+        <field name="SUBMARKET_LIST">random_index</field>
+        <field name="SYMBOL_LIST">1HZ10V</field>
+        <next>
+          <block type="trade_definition_tradetype" id="XX+(u/t)$EQqs[L.EYlf" deletable="false" movable="false">
+            <field name="TRADETYPECAT_LIST">callput</field>
+            <field name="TRADETYPE_LIST">callput</field>
+            <next>
+              <block type="trade_definition_contracttype" id="#AZ/MkT+[3?KUjT=Jf$x" deletable="false" movable="false">
+                <field name="TYPE_LIST">both</field>
+                <next>
+                  <block type="trade_definition_candleinterval" id="|dot=n!XQK5HE%Zba4oZ" deletable="false" movable="false">
+                    <field name="CANDLEINTERVAL_LIST">60</field>
+                    <next>
+                      <block type="trade_definition_restartbuysell" id="3qaGapIntl?x#8IqXlnm" deletable="false" movable="false">
+                        <field name="TIME_MACHINE_ENABLED">FALSE</field>
+                        <next>
+                          <block type="trade_definition_restartonerror" id="gy1n`.Ei{xtr(%M-,r|s" deletable="false" movable="false">
+                            <field name="RESTARTONERROR">TRUE</field>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <statement name="INITIALIZATION">
+      <block type="vh_settings" id="[l%$^dI?ZK4EF$~Z~d@F">
+        <field name="VARIABLE" id="Jg%jvThV*oE[2!sn3+h@" variabletype="">virtual_hook</field>
+        <statement name="STATEMENT">
+          <block type="martingale" id="{70k_|jY%]PdMzQiH})0" deletable="false" movable="false">
+            <value name="MARTINGALE">
+              <shadow type="math_number" id="D[YV%v0LO9EO#{/EL|Un">
+                <field name="NUM">2</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="virtual_token" id="U5[?gn!pw,iWEX|nV52b" deletable="false" movable="false">
+                <value name="VIRTUAL_TOKEN">
+                  <shadow type="text" id="}(DHm0|ZatpI8as/$~LO">
+                    <field name="TEXT">SHkSjxucgzodSfC</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="max_steps" id="gV7*TNgA?e$;Yd4c5XY5" deletable="false" movable="false">
+                    <value name="MAX_STEPS">
+                      <shadow type="math_number" id="2C[83*9l[_U0FK./JZ/S">
+                        <field name="NUM">3</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="min_trades" id="rWG-pMt,D;5nF^w0]AW0" deletable="false" movable="false">
+                        <value name="MIN_TRADES">
+                          <shadow type="math_number" id="dh3mF%)T%3`BR0}1)I]x">
+                            <field name="NUM">1</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="take_profit" id="sRx}@iZC8(}jVP/LXdk[" deletable="false" movable="false">
+                            <value name="TAKE_PROFIT">
+                              <shadow type="math_number" id="c$FVj8pUT2@rTo[s[S~R">
+                                <field name="NUM">5</field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="stop_loss" id="GFNRa!(R{%!6FX23mG2]" deletable="false" movable="false">
+                                <value name="STOP_LOSS">
+                                  <shadow type="math_number" id="o8zh$Ki^VH+[c/!4/I$X">
+                                    <field name="NUM">50</field>
+                                  </shadow>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <statement name="SUBMARKET">
+      <block type="trade_definition_tradeoptions" id="=]9ZLM]8XJi8.3w0+@zm">
+        <mutation has_first_barrier="false" has_second_barrier="false" has_prediction="false"></mutation>
+        <field name="DURATIONTYPE_LIST">t</field>
+        <value name="DURATION">
+          <shadow type="math_number_positive" id="0A=d0xh-nDxb/c=)J=}{">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <value name="AMOUNT">
+          <shadow type="math_number_positive" id="J9q^$b){Ka[=_z.FW#q}">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="during_purchase" id="|b8`{L+KxQDu6mS%~+hj" x="619" y="56">
+    <statement name="DURING_PURCHASE_STACK">
+      <block type="controls_if" id="Gs@9%gh8eA8/#BR]EN?P">
+        <value name="IF0">
+          <block type="check_sell" id="J*3YEmnI}L[]]#hLRSw|"></block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="after_purchase" id="OyL6VE`A!Jt~VgxfKK]3" x="619" y="304">
+    <statement name="AFTERPURCHASE_STACK">
+      <block type="trade_again" id="W)u?Y]8967]g=I,4l5U%"></block>
+    </statement>
+  </block>
+  <block type="before_purchase" id="a.FAn_#j5N51?w[Eg4$Z" deletable="false" x="0" y="984">
+    <statement name="BEFOREPURCHASE_STACK">
+      <block type="purchase" id="EZmq@)pnVN0|jW:y^UB,">
+        <field name="PURCHASE_LIST">CALL</field>
+      </block>
+    </statement>
+  </block>
+</xml>
