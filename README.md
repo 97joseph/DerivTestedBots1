@@ -1,4 +1,4 @@
-
+profitable 
 # Deriv Bots: An Analysis of Automated Trading in a Regulated Binary Options Environment
 
 ### Abstract:
